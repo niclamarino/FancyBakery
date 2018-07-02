@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang='it'>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<title>Fancy Bakery</title>
+
+	<!-- Google maps -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0xjrxKWl1POzl9tIofQXwo_FRXqTKQdU"></script>
+
+	<!-- Scripts -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+	<!-- Css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+	<div class="menu-icon">
+		<span></span>
+		<p id="menu-hover">Menu</p>
+	</div>
+
+	<nav>
+		<div class="menu">
+			<ul class="menu-nav">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">La Bakery</a>
+				</li>
+				<li>
+					<a href="#">Servizi</a>
+				</li>
+				<li>
+					<a href="#">Contatti</a>
+				</li>
+			</ul></div>
+		</nav>
+
+		<div class="parallax"></div>
+
+		<section class="main">
+			<h2>Fancy Bakery</h2>
+			<p>Benvenuti, lasciatevi ispirati dalle nostre dolcezze</p>
+		</section>
+
+		<div class="read-more">
+			<span>Scopri di più</span>
+		</div>
+		<section class="about">
+			<div class="slide">
+				<p>Esperienza, qualità, gusto. Questo (e molto altro) è Fancy Bakery. Lasciati trasportare da sapori e fragranze uniche e rare, per un'esperienza gourmet di alto livello difficile da dimenticare. Il tuo piccolo angolo di paradiso personale.</p>
+			</div>
+			<div class="about-container">
+				<div id="qualita" class="about-wrapper slide">
+					<div class="about-inner">
+						<h3>Qualità</h3>
+						<p>Qualità e sicurezza si riversano e manifestano le esperienze vissute in 25 anni di viaggi, amplificate dalla genialità dei nostri maestri pasticcieri. Abbinamenti particolari, dove spezie e frutta fanno spesso da protagoniste, e le migliori materie prime danno vita alle nostre creazioni più pregiate come  il kubo, il tartufo, il Knamotto o le inconfondibili praline.</p>
+					</div>
+				</div>
+				<div id="qualita-img" class="about-wrapper slide">
+					<div class="about-inner">
+					</div>
+				</div>
+			</div>
+			<div class="about-container">
+				<div id="territorialita-img" class="about-wrapper slide">
+					<div class="about-inner">
+					</div>
+				</div>
+				<div id="territorialita" class="about-wrapper slide">
+					<div class="about-inner">
+						<h3>Territorialità</h3>
+						<p>È così che nasce Fancy Bakery, che si impone nel panorama della gastronomia italiana e regionale con ricette e abbinamenti inconsueti ma anche con la costante e intenzionale capacità di uscire dai binari della cucina “canonizzata”. Ma Fancy Bakery non è solo dolce. Presso la il nostro forno è infatti possibile organizzare un vero e proprio ritorno alle origini. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="gallery-background">
+			<section class="gallery">
+				<h2 class="slide">I nostri prodotti</h2>
+				<ul>
+					<li class="slide">
+						<a href="" class="trigger" data-panel="banana">
+							<span>Pane alla banana</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" class="trigger" data-panel="brioche">
+							<span>Brioche siciliane</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" class="trigger" data-panel="brownies">
+							<span>Brownies</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" class="trigger" data-panel="cookies">
+							<span>Cookies</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" data-panel="torte" class="trigger">
+							<span>Torte</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" data-panel="biscotti" class="trigger">
+							<span>Biscotti al burro</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" data-panel="scones" class="trigger">
+							<span>Scones</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" data-panel="farciti" class="trigger">
+							<span>Farciti</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a href="" data-panel="krapfen" class="trigger">
+							<span>Krapfen</span>
+						</a>
+					</li>
+				</ul>
+			</section></div>
+
+			<div class="details" data-panel="banana">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Pane alla banana (Banana bread)</h3>
+						<p class="description">Il banana bread è un saporito plumcake alla banana, leggermente aromatizzato con della cannella in polvere, tipico di alcuni paesi anglosassoni (Stati Uniti e Australia) dove viene consumato per colazione o per il brunch. Il banana bread è un dolce morbido e sostanzioso, che prevede l'utilizzo di banane molto mature.</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>230kcal</span></li>
+							<li><span>Proteine</span><span>2.4g</span></li>
+							<li><span>Carboidrati</span><span>45.4g</span></li>
+							<li><span>Grassi</span><span>34g</span></li>
+							<li><span>Fibre alimentari</span><span>2.5g</span></li>
+							<li><span>Sodio</span><span>0.004g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+
+					</div>
+				</div>
+			</div>
+			<div data-panel="brioche" class="details">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Brioche farcite</h3>
+						<p class="description">Le brioche di Fancy Bakery sono un vanto della pasticceria siciliana, soffici e golose si gustano in tutta l’isola generalmente accompagnate da un’altra delizia tipica: la granita. Il nome delle brioche "con il tuppo" deriva dalla loro forma che ricorda il tradizionale chignon basso che le donne siciliane portavano un tempo e che nel dialetto regionale si chiama appunto “tuppo”. </p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>530kcal</span></li>
+							<li><span>Proteine</span><span>6.4g</span></li>
+							<li><span>Carboidrati</span><span>45.4g</span></li>
+							<li><span>Grassi</span><span>31g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.003g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+			<div data-panel="brownies" class="details">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Brownies americani</h3>
+						<p class="description">PChi è stato negli U.S.A. difficilmente avrà resistito a quei quadrotti dal colore scuro, dalla leggera crosticina e dall’impasto denso di cioccolato e frutta secca che riempiono le vetrinette di bakery e caffetterie: i brownies! Amatissimi da grandi e piccoli, questi dolcetti della tradizione americana sono spesso accompagnati da panna montata o gelato alla vaniglia, ma nascono in versione “take away”.</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>530kcal</span></li>
+							<li><span>Proteine</span><span>6.4g</span></li>
+							<li><span>Carboidrati</span><span>45.4g</span></li>
+							<li><span>Grassi</span><span>31g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.003g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+			<div data-panel="cookies" class="details">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Cookies americani</h3>
+						<p class="description">In cucina, come nella vita, ci sono dei capisaldi. Soprattutto quando si è bambini e l'ora della merenda o la colazione sono i momenti più divertenti e golosi. Pane e Nutella o latte e biscotti! Ed ecco che noi inguaribili nostalgici davanti al bicchiere di latte freddo ci siamo illuminati e non abbiamo resistito dal preparare i biscotti per accompagnarlo: i Cookies</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>650kcal</span></li>
+							<li><span>Proteine</span><span>6.4g</span></li>
+							<li><span>Carboidrati</span><span>47.4g</span></li>
+							<li><span>Grassi</span><span>51g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.063g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+			<div data-panel="torte" class="details">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Torte personalizzate</h3>
+						<p class="description">Ingredienti come il cioccolato, la frutta, le creme raggiungono la loro massima espressione in un dolce ed otterrete una delle torte più golose e invitanti! Solo a guardarli fanno venire l’acquolina in bocca. Per il tuo dolce per le grandi occasioni, quelle in cui è concesso cedere ai peccati di gola. Realizziamo torte di cake design con e senza pasta da zucchero, per soprenderti ogni volta con gusto.</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>530kcal</span></li>
+							<li><span>Proteine</span><span>6.4g</span></li>
+							<li><span>Carboidrati</span><span>45.4g</span></li>
+							<li><span>Grassi</span><span>31g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.003g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+			<div data-panel="biscotti" class="details">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Biscotti vari gusti</h3>
+						<p class="description">I biscotti sono deliziosi biscottini rotondi, quadrati, esagonali, ecc dal gusto avvolgente. Alla Fancy Bakery i biscotti sono realizzati con un impasto di burro, farina e altri ingredienti (Disponibili anche in versione vegana) che deve essere di ottima qualità per poter sprigionare tutto il suo profumo. Lasciati tentare dalle nostre gustose parciture: cioccolato, vaniglia, zenzero, frutto della passione e molti altri.</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>330kcal</span></li>
+							<li><span>Proteine</span><span>4.4g</span></li>
+							<li><span>Carboidrati</span><span>35.4g</span></li>
+							<li><span>Grassi</span><span>31g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.006g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+			<div data-panel="scones" class="details" role="dialog">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Scones britannici</h3>
+						<p class="description">Per gli inglesi, prendere il tè è un momento tradizionale, che si ripete durante la giornata dalla mattina fino alle famose cinque del pomeriggio, quando il tè viene accompagnato da diverse leccornie dolci o salate. 
+						Una delle immancabili delicatessen che vengono servite in tutta l'Inghilterra con il tè sono gli scones, morbidi paninetti rotondi, dal sapore neutro.</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>530kcal</span></li>
+							<li><span>Proteine</span><span>6.4g</span></li>
+							<li><span>Carboidrati</span><span>45.4g</span></li>
+							<li><span>Grassi</span><span>31g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.003g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+			<div data-panel="farciti" class="details">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Piccola pasticceria</h3>
+						<p class="description">Diciamo la verità, cosa è che fa subito festa? Ma un bel vassoio di pasticcini mignon assortiti!
+						Accanto alla pasticceria secca in cui si trovano spesso le paste di mandorla si scorgono colorate e golosissime dolcezze farcite. Scoprite come preparare un bel cabaret di pasticcini in casa, per rendere la tavola gioiosa e allegra!</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>560kcal</span></li>
+							<li><span>Proteine</span><span>6.4g</span></li>
+							<li><span>Carboidrati</span><span>45.4g</span></li>
+							<li><span>Grassi</span><span>31g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.003g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+			<div data-panel="krapfen" class="details">
+				<div class="panel-container">
+					<div class="panel-content">
+						<h3>Krapfen ripieni</h3>
+						<p class="description">Il Krapfen è un dolce nato nel ‘600 e di origine Austriaca, per la precisione di Graz, il capoluogo della Stiria , meravigliosa cittadina immersa nel verde. 
+						Questo fragrante dolce dal ripieno di marmellata di albicocche, è conosciuto anche in Baviera, come "Faschingsk krapfen auf Grazer art", cioè "dolce di Carnevale alla moda di Graz".</p>
+
+						<h4>Informazioni nutrizionali per 100gr di prodotto</h4>
+						<ul>
+							<li><span>Valore energetico</span><span>530kcal</span></li>
+							<li><span>Proteine</span><span>9.4g</span></li>
+							<li><span>Carboidrati</span><span>5.4g</span></li>
+							<li><span>Grassi</span><span>61g</span></li>
+							<li><span>Fibre alimentari</span><span>3.5g</span></li>
+							<li><span>Sodio</span><span>0.003g</span></li>
+						</ul>
+
+						<h4>Allergeni</h4>
+						<p>Può contenere tracce di uova, noci e latte.</p>
+
+						<a href="" class="panel-close"></a>
+					</div>
+				</div>
+			</div>
+
+			<section class="services">
+				<div class="services-intro slide">
+					<h2>Servizi</h2>
+					<p>Fancy Bakery è un piccolo e delizioso spazio creativo nel centro storico di Verona. Nel laboratorio antistante il punto vendita si sfornano delizie dolci e salate con ingredienti di primissima scelta e cioccolato d’eccellenza.</p>
+					<a href="#">Scopri di più</a>
+				</div>
+				<div class="services-feat-image slide">
+				</div>
+			</section>
+
+			<section class="servizi">
+				<div class="servizi-icone">
+					<ul>
+						<li class="slide">
+							<img alt="Prodotti organici" src="img/organico.svg">
+							<h4>Prodotti organici</h4>
+						</li>
+						<li class="slide">
+							<img alt="Prodotti per celiaci" src="img/celiachia.svg">
+							<h4>Prodotti per celiaci</h4>
+						</li>
+						<li class="slide">
+							<img alt="Torte personalizzate" src="img/torta.svg">
+							<h4>Cake design</h4>
+						</li>
+						<li class="slide">
+							<img alt="Spedizione a casa tua" src="img/spedizione.svg">
+							<h4>Servizio a domicilio</h4>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<div id="map"></div>
+
+			<section class="contattaci">
+				<div id="background" class="layer-0"></div>
+				<div id="donut" class="pastry layer-1"></div>
+				<div id="croissant" class="pastry layer-2"></div>
+				<div id="muffin-blur" class="pastry layer-1"></div>
+				<div id="muffin" class="pastry layer-1"></div>
+				<div class="contattaci-inner">
+					<div id="contatti" class="slide">
+						<h2>Contattaci!</h2>
+						<span><i class="fa fa-envelope"></i> info@fancybakery.it</span>
+						<span><i class="fa fa-phone"></i> +39 320 589 4903</span>
+						<span><i class="fa fa-fax"></i> +38 2839 37 48</span>
+						<span><i class="fa fa-map-marker"></i> Viale Ros, 43 - Verona</span>
+					</div>
+					<div id="form-contatti" class="slide">
+						<form id="form" class="topBefore">
+							<input id="name" placeholder="Il tuo nome">
+							<input id="email" placeholder="E-MAIL">
+							<textarea id="message" placeholder="Messaggio"></textarea>
+							<input id="submit" value="Invia!">
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<footer>
+				<span>Copyright Fancy Bakery <i class="fa fa-copyright"></i> 2018</span>
+			</footer>
+
+			<!-- Scripts -->
+
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.7/TweenMax.min.js'></script>
+
+			<script src="maps.js"></script>
+			<script src="parallax.js"></script>
+
+			<script>
+
+
+				$(window).on('load', function(e) {
+					e.preventDefault();
+
+					$('.trigger').click(function(event) {
+						event.preventDefault();
+						var myEm = $(this).attr('data-panel');
+						$('.details[data-panel = '+myEm+']').addClass('active');
+					});
+
+					$('.panel-close').click(function(event){
+						event.preventDefault();
+						$('.active').removeClass('active');
+					});
+
+				});
+
+			</script>
+
+			<script>	
+				$(function() {
+					$(".menu-icon").click(function(){
+						$(".menu-nav").toggleClass("show");
+						$(".menu-icon").toggleClass("hover");
+					});
+
+					$('.main h2, .main p').addClass('main-load');
+
+				});
+			</script>
+
+			<script>
+
+				$(function() {
+
+					$(window).scroll( function(){
+
+						/* Check the location of each desired element */
+						$('.slide').each( function(i){
+
+							let elBottom = $(this).offset().top + $(this).outerHeight();
+							let windowBottom = $(window).scrollTop() + $(window).height() + 300;
+
+							/* If the object is completely visible in the window, fade it it */
+							if( windowBottom > elBottom ){
+
+								$(this).addClass('slideTop');
+
+							}
+
+						}); 
+
+					});
+
+				});
+
+			</script>
+
+		</body>
+		</html>
